@@ -19,7 +19,7 @@ The `IterativeDisplay` class for MATLAB is designed to assist in displaying iter
 
 ### Class Definition
 
-Here is a brief overview of the class properties and methods:
+Here is a brief overview of the class properties and methods in [IterativeDisplay.m](./IterativeDisplay.m):
 
 ```matlab
 classdef IterativeDisplay < handle
@@ -80,7 +80,7 @@ end
 
 ### Explanation of Demo Code
 
-demo.m is a demonstration of how to use the `IterativeDisplay` class:
+[demo.m](./demo.m) is a demonstration of how to use the `IterativeDisplay` class:
 
 1. **Creating the IterativeDisplay Object**:
    ```matlab
@@ -158,9 +158,9 @@ demo.m is a demonstration of how to use the `IterativeDisplay` class:
    164   alpha   9.03e-77   4.28e-48   
    171   alpha   1.49e-80   3.34e-50   
    181   alpha   1.01e-82   3.26e-53   
-   187    beta   1.21e-85   5.10e-55   
-   197    beta   3.45e-90   4.98e-58   
+   187    beta   1.21e-85   5.10e-55     
+   197    beta   3.45e-90   4.98e-58       
    
-   itr    var      grad       gap      
+   itr    var      grad       gap
    200    beta   1.03e-90   6.22e-59  
    ```
